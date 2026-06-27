@@ -1,0 +1,90 @@
+
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+out/
+coverage/
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# WhatsApp / Baileys authentication sessions
+session/
+sessions/
+auth/
+baileys_auth/
+auth_info_baileys/
+.baileys/
+store.json
+creds.json
+
+# Local database files
+*.db
+*.sqlite
+*.sqlite3
+database.db
+database.sqlite
+database.sqlite3
+
+# Temporary files
+.cache/
+
+# Generated stickers / processed media
+generated/
+stickers-generated/
+processed/
+converted/
+
+# Private or personal media
+private/
+personal/
+backup/
+backups/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Private project images
+src/assets/images/**
+
+# Keep folder structure
+!src/assets/images/
+!src/assets/images/.gitkeep
+
+!src/assets/images/temp1/
+!src/assets/images/temp1/.gitkeep
+
+!src/assets/images/temp2/
+!src/assets/images/temp2/.gitkeep
+
+!src/assets/images/miticas/
+!src/assets/images/miticas/.gitkeep
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Package manager files
+.pnpm-store/
+.yarn/
